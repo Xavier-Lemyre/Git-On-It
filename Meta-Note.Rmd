@@ -1,0 +1,178 @@
+---
+always_allow_html: yes
+output:
+  html_document:
+    fig_width: 7
+    number_sections: no
+    self_contained: yes
+  pdf_document: default
+  word_document: default
+editor_options: 
+  chunk_output_type: console
+---
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+```{css css_Styles, echo=FALSE}
+ <style> 
+    @media {
+  body {
+    width: 1050px;
+    margin: auto;
+} 
+}
+@page {
+  size: Letter;
+  width: 1050px;
+  height: 860px;
+  margin: auto;
+}
+
+body { /* Normal  */
+  font-size: 14px;
+  font-family: "Cambria", sans-serif;
+  line-height: 15px ;
+  text-align: justify;
+}
+td {  /* Table  */
+  font-size: 10px;
+  font-family: "Cambria", sans-serif;
+  line-height: 12px;
+  text-align: center;
+}
+table {
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 75%;
+  text-align:center;
+  margin: 0 auto;
+  }
+.title {
+  font-size: 12px;
+  font-family: "Cambria", sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+  padding: 96px;
+}
+h1 { /* Header 1 */
+  font-size: 16px;
+  font-family: "Cambria", sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+}
+h2 { /* Header 2 */
+  font-size: 16px;
+  font-family: "Cambria", sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-align: center;
+}
+h3 { /* Header 3 */
+  font-size: 14px;
+  font-family: "Cambria", sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-align: left;
+}
+h4 { /* Header 4 */
+  font-size: 13px;
+  font-family: "Cambria", sans-serif;
+  font-variant: small-caps;
+  text-align: left;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.left, .right {
+  width: 45%;
+}
+.middle {
+  width: 10%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+```
+```{css css_Setup, echo=FALSE}
+ <script type="text/x-mathjax-config"> 
+    MathJax.Hub.Config({ 
+        "HTML-CSS": { scale: 100, linebreaks: { automatic: false } }, 
+        TeX: { equationNumbers: { autoNumber: "AMS" } }});
+</script>
+```
+
+</head>
+<body>
+<br>
+<div style="border: 3px solid Gray; border-style: ridge; width: 1000px; height: 775px; padding: 85px; page-break-after: always">
+
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+
+
+<h1>Open-Ready [Self-Contained]<br></h1>
+<h2>Diversity and Impact Measurement<br></h2>
+<h3>Xavier Lemyre</h3>
+<h4>November 16, 2020</h4>
+
+  </div>
+  <div class="column middle" style="background-color:#bbb;">
+
+  </div>
+  <div class="column right" style="background-color:#ccc;">
+  
+  
+<div class="dropdown">
+  <button class="dropbtn">Open</button>
+  <div class="dropdown-content">
+  <a href="https://github.com/Xavier-Lemyre/Git-It/blob/master/Auto-Note.Rmd">Source</a>
+  <a href="https://raw.githubusercontent.com/Xavier-Lemyre/Git-It/master/Auto-Note.Rmd">Code</a>
+  <a href="https://github.com/Xavier-Lemyre/Git-It">Files</a>
+  </div>
+</div>
+
+  
+  </div>
+</div>
+</div><br>
+</body>
+</html>
